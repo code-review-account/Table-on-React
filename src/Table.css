@@ -1,0 +1,74 @@
+table {
+    width: 1200px;
+    height: 636px;
+    margin: 16px 10px 24px;
+    padding: 0 0 16px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #f5f5f5;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    width: 1200px;
+    height: 48px;
+    margin: 48px 0 0;
+    padding: 12px 26.8px 12px 20.1px;
+    background-color: #fafafa;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+tr:nth-child(even) {
+    width: 1200px;
+    height: 48px;
+    margin: 48px 0 0;
+    padding: 12px 26.8px 12px 20.1px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+tr:first-child {
+    width: 1200px;
+    height: 48px;
+    padding: 0px 342px 0px 20px;
+    background-color: #f0f0f0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+.fa-pencil {
+    cursor: pointer;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.fa-pencil:hover{
+    color: #82af00;
+}
+.fa-trash-o {
+    cursor: pointer;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.fa-trash-o:hover {
+    color: #82af00;
+}
+.deleted {
+    display: none;
+}
